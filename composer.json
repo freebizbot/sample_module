@@ -1,0 +1,26 @@
+{
+    "name": "freebizbot/freebizbot_simple_articles",
+    "description": "A Plugin for BizBot which adds the functionality of very simple articles",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Freebizbot\\SimpleArticles\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "freebizbot",
+            "email": "gaurav@zimeshare.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Freebizbot\\SimpleArticles\\SimpleArticlesServiceProvider"
+            ]
+        }
+    }
+}
