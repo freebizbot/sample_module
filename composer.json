@@ -2,6 +2,7 @@
     "name": "freebizbot/freebizbot_simple_articles",
     "description": "A Plugin for BizBot which adds the functionality of very simple articles",
     "license": "MIT",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Freebizbot\\SimpleArticles\\": "src/"
